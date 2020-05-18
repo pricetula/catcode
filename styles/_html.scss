@@ -1,0 +1,22 @@
+html {
+  font-size: 2vw;
+  & > * {
+    color: $primary-0;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+  }
+
+  @include md-screen {
+    font-size: 1.8vw;
+  }
+
+  @include md-large-screen {
+    font-size: 1.6vw;
+  }
+
+  @include lg-screen {
+    font-size: 1.4vw;
+  }
+}
